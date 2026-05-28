@@ -1,0 +1,10 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,org/sample/MergeSortBenchmark$ParState.setup
+inline,org/sample/MergeSortBenchmark$ParState.tearDown
+inline,org/sample/MergeSortBenchmark$SharedState.setup
+inline,org/sample/MergeSortBenchmark.parallelMergeSort
+inline,org/sample/MergeSortBenchmark.sequentialMergeSort
