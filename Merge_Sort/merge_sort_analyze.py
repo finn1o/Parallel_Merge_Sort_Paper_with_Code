@@ -130,7 +130,7 @@ for p in sorted(par_mean["parallelism"].unique()):
 plt.xscale("log")
 plt.xlabel("Problemgröße (n)")
 plt.ylabel("Speedup")
-plt.title("Speedup paralleler Merge Sort")
+plt.title("Speedup paralleler Merge Sort (cutoff=256)")
 plt.legend()
 plt.grid(True)
 plt.show()
